@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'screens/game_purchase_screen.dart';
 import 'screens/registration_screen.dart';
+import 'screens/library_screen.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,10 +19,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: '/purchase',
+      initialRoute: '/library',
       routes: {
-        '/purchase': (context) => GamePurchaseScreen(),
+        '/purchase': (context) => const GamePurchaseScreen(),
         '/register': (context) => RegistrationScreen(),
+        '/library': (context) => const LibraryScreen(),
+        '/login': (context) => const LoginScreen(),
       },
     );
   }
