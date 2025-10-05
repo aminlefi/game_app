@@ -16,11 +16,11 @@ class _MyGamesState extends State<MyGames> {
 
   @override
   void initState() {
-    _games.add(Game("assets/images/devil_may_cry_5.jpg", "Devil May Cry", _description, 200, 3000));
+    _games.add(Game("assets/images/dmc5.jpg", "Devil May Cry", _description, 200, 3000));
     _games.add(Game("assets/images/re8.jpg", "Resident Evil VIII", _description, 200, 3000));
-    _games.add(Game("assets/nfs.jpg", "Need For Speed Heat", _description, 100, 1500));
+    _games.add(Game("assets/images/nfs.jpg", "Need For Speed Heat", _description, 100, 1500));
     _games.add(Game("assets/images/rdr2.jpg", "RDR 2", _description, 150, 2500));
-    _games.add(Game("assets/images/minecraft_dungeons.jpg", "FIFA 22", _description, 100, 5000));
+    _games.add(Game("assets/images/fifa.jpg", "FIFA 22", _description, 100, 5000));
     super.initState();
   }
 

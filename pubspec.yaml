@@ -88,5 +88,9 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
   assets:
-    - assets/devil_may_cry_5.jpg
-    - assets/minecraft_dungeons.jpg
+    - assets/images/dmc5.jpg
+    - assets/images/fifa.jpg
+    - assets/images/minecraft.jpg
+    - assets/images/nfs.jpg
+    - assets/images/rdr2.jpg
+    - assets/images/re8.jpg

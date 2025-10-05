@@ -5,6 +5,9 @@ import 'pages/product_details.dart';
 import 'pages/signup.dart';
 import 'pages/signin.dart';
 import 'pages/home/home.dart';
+import 'pages/reset_password.dart';
+import 'pages/profile_settings.dart';
+import 'pages/cart.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,10 +18,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: "Workshops 5GamiX", //home: Home()
-        //home: Signup()
-        // home: Signin()
-        home: MyGames()
+    return const MaterialApp(title: "Workshops 5GamiX",
+        //home: Cart()
+        //home: Home()
+        home: Signup()
+        //home: Signin()
+        //home: MyGames()
+        //home: ResetPassword()
+        //home: ResetPassword()
+       //home: ProfileSettings()
+         //  home: Cart()
         // home: ProductDetails(
         //     "assets/images/dmc5.jpg",
         //     "Devil May Cry 5",
